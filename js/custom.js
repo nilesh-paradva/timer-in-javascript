@@ -37,5 +37,4 @@ const timeUpdate = () => {
     document.getElementById("min").innerHTML = formatNumber(min);
     document.getElementById("hr").innerHTML = formatNumber(hr);
 };
-
 const formatNumber = num => num < 10 ? '0' + num : num;
